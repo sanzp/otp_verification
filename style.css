@@ -1,0 +1,63 @@
+body{
+    background-color: burlywood;
+    text-align: center;
+    border : groove;
+    border-width: 15px;
+    border-color: saddlebrown;
+    }
+
+h1{
+    font-weight: bold;
+    font-family:Castellar;
+    color:wheat;
+    background: sienna;
+    padding: 10px;
+    }
+
+hr{
+    border: 5px solid darksalmon;
+    border-radius: 5px;
+    }
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    align-items: center;
+    }
+
+p{
+    color: bisque;
+    font-family:Courier New Baltic;
+    font-weight: bold;
+    }
+
+input{
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    font-family:Perpetua Titling MT ;
+    font-weight: bold;
+    color: brown;
+    padding: 5px;
+    }
+input[type='submit']{
+    height: 120px;
+    width:120px;
+    font-family: Gill Sans MT Ext Condensed Bold;
+    font-weight: bold;
+    color:moccasin;
+    background: maroon;
+    padding: 5px;
+    } 
+
+label{
+    font-weight: bold;
+    text-align: center;
+    color:saddlebrown;
+    background: papayawhip;
+    padding: 5px;
+    font-size: 25px;
+    font-family:Lucida Calligraphy; 
+    }
